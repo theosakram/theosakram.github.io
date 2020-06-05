@@ -1,0 +1,26 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./assets/background/darkforest.jpg);
+  background-size: cover;
+  overflow: hidden;
+}
+
+.container {
+  background: white;
+  opacity: 0.5;
+  height: 100vh;
+}
+
+.container h1 {
+  text-align: center;
+  padding-top: 45vh;
+}
+
+.container h3 {
+  text-align: center;
+}

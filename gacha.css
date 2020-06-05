@@ -1,0 +1,96 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./assets/background/darkforest.jpg);
+  background-size: cover;
+  overflow: hidden;
+}
+
+.parents {
+  float: left;
+  font-family: "Lobster Two", cursive;
+  width: 65%;
+}
+
+.diamond {
+  font-family: "Lobster Two", cursive;
+  text-align: center;
+  margin-top: 100px;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(35, 39, 76);
+}
+
+.container,
+.gamble,
+.instructor {
+  text-align: center;
+  margin-top: 50px;
+}
+
+button {
+  font-family: "Lobster Two", cursive;
+  border: none;
+  opacity: 0.75;
+  color: rgba(35, 39, 76);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  color: white;
+  background-color: rgba(35, 39, 76);
+}
+
+.result {
+  float: right;
+  width: 35%;
+}
+
+.result h2 {
+  font-family: "Lobster Two", cursive;
+  font-size: 30px;
+  text-align: center;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(35, 39, 76);
+}
+
+.result p {
+  font-family: "Lobster Two", cursive;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+  opacity: 0.75;
+}
+
+footer {
+  font-family: "Lobster Two", cursive;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  position: fixed;
+  margin-top: 95vh;
+  margin-left: 32.5%;
+}
+
+footer p {
+  margin: auto;
+  color: #cccccc;
+  text-shadow: 0 0 5px #2e2e2e;
+}
+
+footer p span {
+  color: white;
+}

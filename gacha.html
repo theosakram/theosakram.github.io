@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="gacha.css" type="text/css" />
+    <title>Gacha</title>
+  </head>
+  <body>
+    <div class="parents">
+      <div class="diamond">
+        <h1>Your diamond:</h1>
+        <h1 id="amount">0</h1>
+      </div>
+      <div class="container">
+        <button onclick="gacha()">Roll: 30 diamond</button>
+        <button onclick="gacha10()">Roll 10: 270 diamond</button>
+      </div>
+      <div class="gamble">
+        <a href="gamble.html"><button>Gamble</button></a>
+        <a href="inventory.html"><button>Owned Character</button></a>
+      </div>
+      <div class="instructor">
+        <button onclick="instructor()">
+          I don't have time for gambling, give me free diamonds
+        </button>
+      </div>
+    </div>
+    <div class="result">
+      <h2>You got:</h2>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+    </div>
+
+    <footer>
+      <p>
+        <span>Wyrdhn Designs</span> © 2020 Theophany Sakra Muhammad. Hacktiv8
+        Phase0. Final Project
+      </p>
+    </footer>
+    <script src="gacha.js"></script>
+  </body>
+</html>
